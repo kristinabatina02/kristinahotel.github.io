@@ -1,0 +1,116 @@
+<html>
+	<head>
+		<title>Kontakt</title>
+		<meta charset="utf-8"/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Amiri&family=Balsamiq+Sans&family=Bebas+Neue&family=Caveat&family=Comforter&family=Dancing+Script&family=Fuzzy+Bubbles&family=Hind+Siliguri:wght@300&family=IBM+Plex+Serif:wght@300&family=Lobster&family=Meow+Script&family=Mochiy+Pop+P+One&family=Open+Sans:ital,wght@1,600&family=PT+Sans&family=Pacifico&family=Playfair+Display&family=Roboto+Slab:wght@200&family=Satisfy&family=Slabo+27px&display=swap" rel="stylesheet"/>
+		<link rel="preconnect" href="https://fonts.googleapis.com"/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+		<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet"/>
+		<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css" />
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"/>
+	</head>
+	<body>
+		<header>
+			<div class="meni">
+				<div id="logo">
+					<a href="index.html"><img src="../pictures/logo.png" alt="logo"/></a>
+				</div>
+				<nav>
+					<ul>
+						<li>
+							<a href="index.html">Početna</a>
+						</li>
+						<li>
+							<a href="kontakt.html" class="aktivna">Kontakt</a>
+						</li>
+						<li>
+							<a href="sobe.html">Sobe</a>
+						</li>	
+						<li>
+							<a href="galerija.html">Galerija</a>
+						</li>
+						<li>
+							<a href="oautoru.html">O autoru</a>
+						</li>
+					</ul>
+				</nav>
+					<div class="cleaner"></div>
+			</div>
+		</header>
+		<h1>Kontakt</h1>
+		<div id="okvirzakontakt">
+			<div id="hotel-info">
+				<div id="tekst-info">
+					<div class="icon"><i class="zmdi zmdi-email">thebristolhotel&#64;gmail.com</i></div>
+					<div class="icon"><i class="zmdi zmdi-phone"> +381457523691</i></div>
+					<div class="icon"><i class="zmdi zmdi-hotel">Braće Todorović 151 Beograd</i></div>
+				</div>
+			</div>
+			<div id="kontaktforma">
+				 <form action="forma.php" method="POST" name="form1" id="form1">
+                    <div class="form podatak">
+                        <label for="ime">Ime</label>
+                        <br/>
+                        <input type="text" name="ime" id="ime" placeholder="Ime"/>
+                    </div>
+                    <div class="form podatak">
+						<label for="prezime">Prezime</label>
+                        <br/>
+                        <input type="text" name="prezime" id="prezime" placeholder="Prezime"/>
+                    </div>
+                    <div class="form">
+						<label for="email">E-mail</label>
+                        <br/>
+                        <input type="email" name="email" id="email" placeholder="E-mail"/>
+                    </div>
+                    <div class="form">
+                        <label for="poruka">Poruka</label>
+                        <br/>
+                        <textarea name="poruka" id="poruka" placeholder="Unesite tekst..."></textarea>
+                    </div>
+                    <div class="form">
+						<input type="button" value="Pošalji poruku" id="dugmeporuka" name="dugmeporuka"/>
+                    </div>
+                </form>
+			</div>
+			<div id="lokacija"> 
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2831.6434135000904!2d20.516499914923852!3d44.78807458632384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7098a359e139%3A0x53f59d48abe57e49!2z0JHRgNCw0ZvQtSDQotC-0LTQvtGA0L7QstC40ZssINCR0LXQvtCz0YDQsNC0!5e0!3m2!1ssr!2srs!4v1638827511080!5m2!1ssr!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			</div>
+		</div>
+		<footer>
+
+			<div class="copyright">
+				<p>Copyright&copy;2021.</p>
+			</div>
+
+			<div class="social">
+				<ul>
+					<li>
+						<a href="https://www.facebook.com/" target="_self">
+							<i class="zmdi zmdi-facebook-box"></i>
+						</a>
+					</li>
+				    <li>
+						<a href="https://www.instagram.com/" target="_self">
+							<i class="zmdi zmdi-instagram"></i>
+						</a>
+					</li>
+					<li>
+						<a href="../sitemap.xml" target="_blank">
+							<i class="zmdi zmdi-rss"></i>
+						</a>
+					</li>
+					<li>
+						<a href="../rss.xml" target="_blank">
+							<i class="fa fa-sitemap "></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="cleaner"></div>
+		</footer>		
+	</body>
+</html>
