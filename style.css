@@ -102,14 +102,16 @@ header nav ul li a:hover{
 }
 .lista{
 	float: left;
-	width: 150px;
-	margin-left: 60px;
+	width: 140px;
+	margin-left: 50px;
 }
 .rezervacija-form input[type="submit"]{
 	background: #bb8d50;
 	color: #fff;
 	font-size: 15px;
-	border-radius: 10px;
+	width: 100px;
+	height: 50px;
+	border-radius: 5px;
 }
 #sub{
 	padding-top: 18px;
@@ -133,12 +135,143 @@ header nav ul li a:hover{
 	outline: 0px;
 	box-shadow: 0px 0px 7px rgba(0,0,0,0.4);
 }
-
+/*kontakt*/
+h1{
+	text-align: center;
+	font-family: 'Balsamiq Sans';
+}
+#okvirzakontakt{
+	display: flex;
+    flex-wrap: wrap;
+}
+#hotel-info {
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+	animation-name: animacija1;
+	animation-duration: 3s;
+	position: relative;
+}
+@keyframes animacija1{
+	0%{
+		left: -400px;
+	}
+	100%{
+		left: 0px;
+	}
+}
+#tekst-info{
+	text-align: center;
+    padding-top: 30px;
+}
+#kontaktforma{
+	width: 45%;
+	margin-left: 20px;
+}
+.podatak{
+	width: 45%
+}
+#kontaktforma input, #kontaktforma textarea {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #bb8d50;   
+}
+.form {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.form textarea {
+    resize: vertical;
+    height: 100px;
+}
+#dugmeporuka {
+    width: 30%;
+    background-color: #bb8d50;
+    border: 1px solid #bb8d50;
+    padding: 10px;
+}
+#lokacija{
+	width: 45%;
+	margin-left: 50px;
+	padding-bottom: 10px;
+}
 	
 /*sobe*/
+.okvir{
+	width: 90%;
+	margin: 0px auto;
+}
+#sobe{
+	height: 40px;
+    width: 100px;
+    padding-top: 10px;
+	margin: 0px auto;
+	margin-bottom: 50px;
+}
+#sobe h1{
+	font-family: 'Amiri';
+	font-size: 40px;
+	text-align: center;
+}
+.sobe{
+	display: flex;
+    flex-wrap: wrap;
+}
 
-
-
+.slikasobe{
+	width: 45%;
+	margin-left: 5%;
+}
+.opissobe{
+	text-align: center;
+	padding: 20px 0px;
+	width: 45%;
+	background-color: #bb8d50;
+}
+.opissobe2{
+	text-align: center;
+	padding: 20px 0px;
+	width: 45%;
+}
+.opissobe h2{
+	font-family: 'Dancing Script';
+	font-size: 30px;
+}
+.opissobe p{
+	font-family: 'Open Sans';
+	font-size: 18px;
+}
+.opissobe ul{
+	list-style-type: none;
+	font-family: 'Open Sans';
+}
+.opissobe input[type="button"]{
+	background: #fff;
+	color: #bb8d50;
+	font-size: 15px;
+	width: 100px;
+	height: 30px;
+}
+.opissobe2 h2{
+	font-family: 'Dancing Script';
+	font-size: 30px;
+}
+.opissobe2 p{
+	font-family: 'Open Sans';
+	font-size: 18px;
+}
+.opissobe2 ul{
+	list-style-type: none;
+	font-family: 'Open Sans';
+}
+.opissobe2 input[type="button"]{
+	background: #bb8d50;
+	color: #fff;
+	font-size: 15px;
+	width: 100px;
+	height: 30px;
+}
 /*galerija*/
 .container {
     width: 850px;
@@ -183,18 +316,14 @@ header nav ul li a:hover{
 .omeni{
 	height: 450px;
 	padding: 10px;
-	margin-bottom: 20px;
-	
+	margin-bottom: 20px;	
 }
-
 .biografija{
 	padding: 10px;
 	display: flex;
     justify-content: center;
     align-items: center;
 }
-
-
 .biografija img {
     width: 400px;
     border-radius: 5px;
@@ -210,7 +339,6 @@ header nav ul li a:hover{
 		left: 0px;
 	}
 }
-
 .biografija p {
     width: 650px;
     text-indent: 45px;
@@ -232,72 +360,11 @@ header nav ul li a:hover{
 		right: 0px;
 	}
 }
-/*kontakt*/
-h1{
-	text-align: center;
-	font-family: 'Balsamiq Sans';
-}
-#okvirzakontakt{
-	display: flex;
-    flex-wrap: wrap;
-}
-#hotel-info {
-    width: 50%;
-    text-align: center;
-    font-size: 20px;
-	animation-name: animacija1;
-	animation-duration: 3s;
-	position: relative;
-}
-@keyframes animacija1{
-	0%{
-		left: -400px;
-	}
-	100%{
-		left: 0px;
-	}
-}
-#tekst-info{
-	text-align: center;
-    padding-top: 30px;
-}
-#kontaktforma{
-	width: 45%;
-	margin-left: 20px;
-}
-.podatak{
-	width: 45%
-}
-#kontaktforma input, #kontaktforma textarea {
-    width: 100%;
-    padding: 5px;
-    border-radius: 5px;
-    border: 1px solid #bb8d50;
-    
-}
-.form {
-    width: 100%;
-    margin-bottom: 10px;
-}
-.form textarea {
-    resize: vertical;
-    height: 100px;
-}
-#dugmeporuka {
-    width: 30%;
-    background-color: #bb8d50;
-    border: 1px solid #bb8d50;
-    padding: 10px;
-}
-#lokacija{
-	width: 45%;
-	margin-left: 50px;
-	padding-bottom: 10px;
-}
+
 footer{
 	background-color: #bb8d50;
 	width: 100%;
-		
+	padding-top: 10px;	
 }
 .social{
 	float: right;
@@ -327,77 +394,6 @@ footer{
 .cleaner{
 	clear: both;
 }
-.okvir{
-	width: 90%;
-	margin: 0px auto;
-}
-#sobe{
-	height: 40px;
-    width: 100px;
-    padding-top: 10px;
-	margin: 0px auto;
-	margin-bottom: 50px;
-}
-#sobe h1{
-	font-family: 'Amiri';
-	font-size: 40px;
-	text-align: center;
-}
-.sobe{
-	display: flex;
-    flex-wrap: wrap;
-}
 
-.slikasobe{
-	width: 45%;
-	margin-left: 5%;
-}
-.opissobe{
-	text-align: center;
-	padding: 20px 0px;
-	width: 45%;
-	background-color: #bb8d50;
-}
-.opissobe2{
-	text-align: center;
-	padding: 20px 0px;
-	width: 45%;
-}
-.opissobe h2{
-	font-family: 'Dancing Script';
-	font-size: 30px;
-}
-.opissobe p{
-	font-family: 'Open Sans';
-	font-size: 20px;
-}
-.opissobe ul{
-	list-style-type: none;
-	font-family: 'Open Sans';
-}
-.opissobe input[type="button"]{
-	background: #00000;
-	color: #bb8d50;
-	font-size: 15px;
-	
-}
-.opissobe2 h2{
-	font-family: 'Dancing Script';
-	font-size: 30px;
-}
-.opissobe2 p{
-	font-family: 'Open Sans';
-	font-size: 18px;
-}
-.opissobe2 ul{
-	list-style-type: none;
-	font-family: 'Open Sans';
-}
-.opissobe2 input[type="button"]{
-	background: #00000;
-	color: #fff;
-	font-size: 15px;
-	
-}
 
 
