@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>The Bristol hotel - novosti</title>
+		<link>https://thebristolhotel.000webhostapp.com/index.html</link>
+		<description>Obaveštenje o novim ponudama</description>
+	<item>
+		<title>The Bristol hotel - novosti</title>
+		<link>https://thebristolhotel.000webhostapp.com/sobe.html</link>
+		<description>Nove slike naseg hotela i ponuda</description>
+	</item>
+	</channel>
+</rss>
